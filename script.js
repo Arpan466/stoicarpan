@@ -1,5 +1,5 @@
-// Set the date we're counting down to
-const countDownDate = new Date().getTime() + (15 * 24 * 60 * 60 * 1000);
+// Set the date we're counting down to (fixed date)
+const countDownDate = new Date("may 1, 2025 23:59:59").getTime();
 
 // Update the countdown every 1 second
 const x = setInterval(() => {
