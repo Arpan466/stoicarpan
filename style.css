@@ -75,7 +75,7 @@ html, body {
 }
 
 img {
-    max-width: 100%; /* Make images responsive */
+    max-width: 100vw; /* Make images responsive */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove space below the image */
     margin-bottom: 0; /* Ensure no margin at the bottom */
