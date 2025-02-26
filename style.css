@@ -1,5 +1,6 @@
 html, body {
     background-image: url('stoicwallpaper.jpg');
+    width: 100vw
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
