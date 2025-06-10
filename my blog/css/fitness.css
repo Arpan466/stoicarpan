@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #2c3e50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #e67e22;
+}
+
+.navbar ul li a.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+/* Hero Section */
+.hero {
+        background: url('../img/greek god physique.jpg') center/cover no-repeat;
+        color: #031225;
+        font: bold 20px 'Arial', sans-serif;
+        font: italic 50px 'Arial', sans-serif;
+        text-align: center;
+        padding: 80px 20px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-style: initial;
+    color: #031225; /* A bold, visible yellow tone */
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+/* Fitness Topics Section */
+.topics {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.topics h2 {
+    font-size: 28px;
+    color: #0b2035;
+    margin-bottom: 20px;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.topic {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.topic:hover {
+    transform: translateY(-5px);
+}
+
+.topic h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #e67e22;
+}
+
+.topic h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topic h3 a:hover {
+    text-decoration: underline;
+}
+
+.topic p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Featured Workouts Section */
+.workouts {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.workouts h2 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.workouts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.workout {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.workout:hover {
+    transform: translateY(-5px);
+}
+
+.workout img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.workout h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #e67e22;
+}
+
+.workout p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}

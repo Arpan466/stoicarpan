@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: #2c3e50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #e67e22;
+}
+
+/* Hero Section */
+.hero {
+    background: url('../img/hero-about.jpg') center/cover no-repeat;
+    color: #1a1818;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#searchResults {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+#searchResults div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#searchResults h3 a {
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+#searchResults h3 a:hover {
+    color: #e67e22;
+    text-decoration: underline;
+}
+
+/* About Section */
+.about-section {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.about-section p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.about-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-section ul li {
+    font-size: 18px;
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+    line-height: 1.5;
+}
+
+.about-section ul li::before {
+    content: "✔";
+    color: #e67e22;
+    position: absolute;
+    left: 0;
+    font-size: 18px;
+}
+
+/* Footer */
+.footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
